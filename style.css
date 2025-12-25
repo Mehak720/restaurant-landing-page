@@ -1,0 +1,301 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flow-root;
+    
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.panelcall{
+    margin-left: 25px;
+}
+.email{
+    width: 82%;
+    margin-left: 30px;
+}
+.panelicons{
+    margin-right: 25px;
+
+}
+.backimg{
+    background-image: url(finalbackgroundimg.png);
+    height: 100vh;
+    width: 100vw;
+    
+    
+    background-size: cover;
+    background-position: bottom center;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: end;
+}
+.navbar{
+  height: 80px;
+  width: 1600px;
+  
+  color: white;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.msg{
+  margin-left: 6px;
+  width: 30%;
+  font-size: 35px;
+}
+.options{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+.logo{
+  background-image: url(ChatGPT\ Image\ Dec\ 22\,\ 2025\,\ 07_51_59\ PM.png);
+  height: 50px;
+ width: 100px;
+ background-size: cover;
+ margin-left: 55px;
+}
+.options p{
+  display: inline;
+  margin-left: 20px;
+  font-size: 18px;
+}
+.options p:hover{
+  color: #6f97c2;
+  cursor: pointer;
+}
+.content a{
+  display: block;
+  color: #c5cfad;
+  text-decoration: none;
+  padding: 10px 15px;
+
+}
+.menu  .content{
+  display: none;
+  position: absolute;
+  width: 200px;
+  background-color: #222f3d;
+  box-shadow: 2px 2px 5px rgb(118, 118, 175);
+}
+.menu:hover .content{
+  display: block;
+}
+.menu a:hover{
+  background-color: #334964;
+}
+
+.herosection{
+  position: absolute;
+
+  top: 220px;
+  height: 350px;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  
+
+  justify-content: center;
+}
+.heromsg{
+  color: #c5cfad;
+  font-size: 65px;
+  display: inline;
+  /*margin-left: 450px;*/
+}
+.heromsgs1{
+  color: #c0c9d2;
+  display: inline;
+   /*margin-left: 540px;*/
+   font-size: 20px;
+}
+.heromsgs2{
+  color: #c0c9d2;
+  /*margin-left: 630px;*/
+  font-size: 20px;
+}
+.dining{
+  /*margin-left: 740px;*/
+  margin-top: 9px;
+  color: white;
+  top: 50px;
+}
+h2{
+  margin-top: 15px;
+  
+  color: #dbe1e7 ;
+  font-size: 17px;
+  text-align: center;
+  flex-direction: column;
+}
+.mon{
+  margin-top: 15px;
+  margin-left: 0px;
+  flex-direction: column;
+  color: #c0c9d2;
+}
+.week{
+  color: #c0c9d2;
+  margin-top: 7px;
+
+}
+.table{
+  margin-top: 25px;
+  width: 1200px;
+
+}
+.table button{
+  width: 130px;
+  height: 36px;
+  border-radius: 50px;
+}
+.button1{
+  color: #d1dae3;
+  background-color: #111820;
+
+}
+.button2{
+  background-color: transparent;
+  border: 2px solid #c0c9d2;
+  color:#d1dae3 ;
+}
+.floating-layer {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+.float {
+  position: absolute;
+  width: 100px;
+  pointer-events: auto;
+}
+.onion {
+  top: 20%;
+  left: 12%;
+   animation: onionFloat 8s ease-in-out infinite;
+  
+}
+
+@keyframes onionFloat {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(6deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+.leaf {
+  top: 22%;
+  right: 18%;
+  width: 120px;
+  animation: leafSway 10s ease-in-out infinite;
+}
+
+@keyframes leafSway {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(-18px) rotate(-8deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
+.onion2 {
+  bottom: 18%;
+  left: 10%;
+  width: 90px;
+  animation: onion2Drift 12s linear infinite;
+}
+
+@keyframes onion2Drift {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, -15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.mush1 {
+  bottom: 11%;
+  left: 15%;
+  width: 90px;
+  animation: mush1Drift 12s linear infinite;
+}
+
+@keyframes mush1Drift {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, -15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.nuties {
+  bottom: -5%;
+  left: 12%;
+  width: 90px;
+  animation: nutiesDrift 12s linear infinite;
+}
+
+@keyframes nutiesDrift {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, -15px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.berry {
+  top: 60%;
+  right: 18%;
+  width: 120px;
+  position: absolute;
+  animation: berrySway 10s ease-in-out infinite;
+}
+@keyframes berrySway {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(-18px) rotate(-8deg);
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+  }
+}
